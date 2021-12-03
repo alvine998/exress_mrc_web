@@ -44,7 +44,7 @@ global.__basedir = __dirname;
 require('./app/routes/artikel.routes.js')(app);
 require('./app/routes/banner.routes.js')(app);
 require('./app/routes/image.routes')(app);
-// require('./app/routes/detailchat.routes')(app);
+require('./app/routes/profil.routes')(app);
 
 const dirname = path.resolve();
 app.use("/upload/images/", express.static(path.join(dirname, "/upload/images/")));
