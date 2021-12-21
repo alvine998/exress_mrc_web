@@ -4,7 +4,7 @@ const Foto = require('../models/foto.model.js');
 exports.create = (req, res) => {
     // Create a Note
     const foto = new Foto({
-        uri: req.body.uri,
+        gambar: req.body.gambar,
         judul: req.body.judul,
     });
 
