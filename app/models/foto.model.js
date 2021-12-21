@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const FotoSchema = mongoose.Schema({
-    uri:String,
+    gambar:String,
     judul:String
 }, {
     timestamps: true
